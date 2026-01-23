@@ -12,5 +12,3 @@ Why DevOps ?
 5) Supports Cloud & Modern Applications
 6) Improves System Reliability
 7) Perfect for IT Freshers & Career Switchers
-
-https://media.geeksforgeeks.org/wp-content/uploads/20250820102009366994/devopsmodel1.webp
