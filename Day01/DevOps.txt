@@ -1,0 +1,11 @@
+What is DevOps ?
+DevOps is a cultural philosophy, set of practices, and tools that combine software Development and IT Operations to automate and speed up the software delivery lifecycle.
+
+Why DevOps ? 
+1) Faster Software Delivery 
+2) Better Collaboration
+3) Automation Saves Time
+4) High Demand & Career Growth
+5) Supports Cloud & Modern Applications
+6) Improves System Reliability
+7) Perfect for IT Freshers & Career Switchers
