@@ -1,9 +1,10 @@
 # Introduction - Day 1
 
-## What is DevOps ?
+### What is DevOps ?
 
-## Simple DevOps Definition
+### Simple DevOps Definition
 
-## Why DevOps ? 
+### Why DevOps ? 
+
 
 
