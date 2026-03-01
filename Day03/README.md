@@ -9,3 +9,6 @@ Virtualization uses software (hypervisors) to create simulated, virtual versions
 
 ### API 
 API stands for Application Programming Interface. It is a set of rules and protocols that allows two different software programs to communicate with each other and exchange data or functionality.
+
+### CLI
+A Command Line Interface (CLI) is a text-based user interface used to interact with operating systems and software by typing commands into a terminal or console.
