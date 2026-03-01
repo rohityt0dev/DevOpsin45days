@@ -7,3 +7,5 @@ A server is a powerful computer, system, or software program that manages, store
 ### Virtualization
 Virtualization uses software (hypervisors) to create simulated, virtual versions of physical IT resources—servers, storage, networks, and applications—allowing multiple, independent, and secure systems to run on a single physical machine.
 
+### API 
+API stands for Application Programming Interface. It is a set of rules and protocols that allows two different software programs to communicate with each other and exchange data or functionality.
