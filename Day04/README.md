@@ -15,12 +15,14 @@ Automation is important in DevOps because it increases speed, reduces human erro
 Cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. Instead of buying, owing, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and database on an as-needed basic from a cloud provider like Amazon Web service.
 
 Creating VMs on AWS :
+Connecting to a remote machine :
 
 
 ## 📝 My Blog
 
 🚀 I share DevOps and Cloud learning here:  
 👉 [Read my blogs on Hashnode](https://breaking-into-devops.hashnode.dev/what-is-cloud-computing-a-simple-guide)
+
 
 
 
