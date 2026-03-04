@@ -17,4 +17,10 @@ Cloud computing is the on-demand delivery of IT resources over the internet with
 Creating VMs on AWS :
 
 
+## 📝 My Blog
+
+🚀 I share DevOps and Cloud learning here:  
+👉 [Read my blogs on Hashnode](https://breaking-into-devops.hashnode.dev/what-is-cloud-computing-a-simple-guide)
+
+
 
