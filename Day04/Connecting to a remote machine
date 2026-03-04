@@ -1,0 +1,29 @@
+CONNECTING TO A REMOTE MACHINE GUIDE
+A. HOW TO CONNECT THROUGH RDP CLIENT (AWS/EC2)
+1.	Select Connect on your instance dashboard.
+2.	Select the RDP Client tab.
+3.	Download the Remote Desktop File to your computer.
+4.	Select Get Password.
+5.	Upload your Private Key File (.pem) and click Decrypt Password.
+6.	Copy the decrypted password to your clipboard and close the window.
+B. HOW TO LOG IN TO THE MACHINE
+Option 1: Using the RDP File
+1.	Open the downloaded Remote Desktop File (e.g., myfirstec2machine.rdp).
+2.	Click Connect when the prompt appears.
+3.	Paste the password you copied earlier.
+4.	Click Yes on the certificate warning to establish the connection.
+Option 2: Manual Connection
+1.	Open the "Remote Desktop Connection" application on your local machine.
+2.	Enter the Public IP address of the remote machine.
+3.	Click Connect.
+4.	Enter the credentials and the password you copied earlier.
+5.	Click Yes on any security prompts.
+C. HOW TO CONNECT THROUGH PUTTY (SSH)
+1.	Copy the Public IP address of your machine.
+2.	Download and open PuTTY on your local machine.
+3.	In the "Host Name (or IP address)" field, paste the copied IP address.
+4.	In the left-hand category menu, navigate to: Connection > SSH > Auth > Credentials.
+5.	Under "Private key file for authentication," click Browse.
+6.	Select your Private Key file (usually .ppk format for PuTTY) and click Open.
+7.	Click Open at the bottom of the PuTTY window.
+8.	Click Accept on the security alert and log in (usually as 'ec2-user', 'admin', or 'ubuntu').
