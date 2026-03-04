@@ -1,0 +1,39 @@
+1. Download the Installer
+1.	Open your browser and navigate to the Official AWS CLI Download Page.
+2.	Click on the Windows (64-bit) installer.
+3.	This will download the file: AWSCLIV2.msi.
+2. Install the CLI
+1.	Double-click the AWSCLIV2.msi file.
+2.	Follow the installation wizard:
+o	Click Next.
+o	Accept the terms and click Install.
+o	Click Finish.
+Note: Windows automatically adds the AWS CLI to your system PATH, so you don't need to configure environment variables manually.
+3. Verify Installation
+Open Command Prompt or PowerShell and run the following command to ensure the CLI is recognized:
+Bash
+aws --version
+Example Output: aws-cli/2.15.0 Python/3.11 Windows/10 exe/AMD64 If you see this, the installation was successful! ✅
+4. Configure Your Credentials
+To connect the CLI to your specific AWS account, run the configuration command:
+Bash
+aws configure
+You will be prompted to enter four pieces of information. If you don't have these yet, you can find them in the IAM Console under your user's "Security Credentials."
+Prompt	Example Value
+AWS Access Key ID	AKIAxxxxxxxxxxxx
+AWS Secret Access Key	xxxxxxxxxxxxxxxxx
+Default region name	ap-south-1 (or your preferred region)
+Default output format	json
+
+5. Credential Storage Location
+Once configured, AWS stores your settings in a hidden folder in your User directory. You can find them here:
+•	Credentials: C:\Users\YourUsername\.aws\credentials
+•	Config: C:\Users\YourUsername\.aws\config
+⚠️ Security Warning: Never share or commit your .aws/credentials file to version control.
+________________________________________
+6. Test the Connection
+Verify that the CLI can communicate with your AWS account by listing your S3 buckets:
+Bash
+aws s3 ls
+If you have buckets, they will be listed. If you have no buckets yet, it will simply return a blank line (which still means it's working!).
+
