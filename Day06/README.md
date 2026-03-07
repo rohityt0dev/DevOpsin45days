@@ -2,16 +2,24 @@
 
  Hardware
  1 . Hardware means the physical parts of a computer that you can see and touch.
+ 
  2 . Physical components .
+ 
  3 . Can be touched
- 4 . Example: CPU, RAM 
+ 
+ 4 . Example: CPU, RAM
+ 
  5 . Manufactured
 
  Software 
  1 . Software is the programs or instructions that tell the hardware what to do. 
+ 
  2 . Programs / applications
+ 
  3 . Cannot be touched
+ 
  4 . Example: Windows, Chrome
+ 
  5 . Developed by programmers
 
  ## Linux 
@@ -44,6 +52,7 @@ Shebang is the first line in a script that tells the operating system which inte
 r = 4
 w = 2
 x = 1
+
 
 
 
