@@ -1,0 +1,19 @@
+These are basic Linux commands that every DevOps / Cloud engineer use :
+
+1 . pwd : Print Working Directory
+2 . ls : List files and directories.
+3 . ls -l :    # detailed list
+4 . ls -a  :   # show hidden files
+5 . cd : Change Directory.
+6 . cd .. : Go to parent directory (one level back).
+7 . ls -ltr : List files sorted by time (latest last).
+8 . touch : Create an empty file.
+9 . vi : Open file in VI text editor.
+10 . cat : Display file content.
+11 . mkdir : Create directory.
+12 . rm -r : Remove directory recursively.
+13 . free -g : Check RAM memory usage in GB.
+14 . nproc : Shows number of CPU cores.
+15 . df -h : Shows disk space usage.
+16 . top : Shows running processes + CPU + RAM usage in real time.
+17 . man : It is used to read documentation of Linux commands directly in the terminal.
