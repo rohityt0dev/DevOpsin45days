@@ -23,7 +23,27 @@
 ##### Shebang in Linux (#!)
 Shebang is the first line in a script that tells the operating system which interpreter should run the script.
 
- 
- 
+##### chmod command and how to use ? 
+
+##### Types of Permissions
+| Permission | Symbol | Number | Meaning           |
+| ---------- | ------ | ------ | ----------------- |
+| Read       | r      | 4      | View file content |
+| Write      | w      | 2      | Edit file         | 
+| Execute    | x      | 1      | Run file          |
+
+##### Users in Permission System 
+ | User | Meaning      |
+| ---- | ------------ |
+| u    | Owner (user) |
+| g    | Group        |
+| o    | Others       |
+| a    | All users    |
+
+##### Numeric Method
+r = 4
+w = 2
+x = 1
+
 
 
