@@ -17,3 +17,5 @@ These are basic Linux commands that every DevOps / Cloud engineer use :
 15 . df -h : Shows disk space usage.
 16 . top : Shows running processes + CPU + RAM usage in real time.
 17 . man : It is used to read documentation of Linux commands directly in the terminal.
+18 . sh or ./ : run shell scripts
+19 . chmod : change file or directory permissions.
