@@ -18,6 +18,12 @@
  #### Why Linux 
  Linux is widely used because it is open source, secure, stable, and most cloud servers run on Linux. It also provides powerful command-line tools that make automation and server management easier.
 
+ ### Linux commands : 
+
+##### Shebang in Linux (#!)
+Shebang is the first line in a script that tells the operating system which interpreter should run the script.
+
  
  
+
 
