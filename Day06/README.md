@@ -50,8 +50,13 @@ Shebang is the first line in a script that tells the operating system which inte
 
 ##### Numeric Method
 r = 4
+
 w = 2
+
 x = 1
+
+
+
 
 
 
