@@ -19,3 +19,4 @@ These are basic Linux commands that every DevOps / Cloud engineer use :
 17 . man : It is used to read documentation of Linux commands directly in the terminal.
 18 . sh or ./ : run shell scripts
 19 . chmod : change file or directory permissions.
+20 . history : list of commands you previously executed in the terminal.
