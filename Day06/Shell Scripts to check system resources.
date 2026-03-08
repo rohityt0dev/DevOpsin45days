@@ -1,0 +1,19 @@
+!#/bin/bash 
+
+#########################
+# Author: Rohit
+# Date:
+# This scripts outputs the node health.
+# Version: v1
+##########################
+
+echo "Server Health Check"
+
+echo "Disk Usage"
+df -h /
+
+echo "Memory Usage"
+free -g
+
+echo "CPU Cores"
+nproc
