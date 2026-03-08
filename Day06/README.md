@@ -59,6 +59,10 @@ x = 1
 
 ##### Shell Scripts to check system resources.
 
+##### What is awk in Linux ?
+awk is a command-line tool used for text processing and extracting specific columns from files or command output.
+
+
 
 
 
