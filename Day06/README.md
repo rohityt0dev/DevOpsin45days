@@ -55,6 +55,7 @@ w = 2
 
 x = 1
 
+![image alt](https://github.com/rohityt0dev/DevOpsin45days/blob/7aafd0f9f43cc997ba264bbb93f47d7d3c945f95/Day06/ChatGPT%20Image%20Mar%207%2C%202026%2C%2004_33_56%20PM.png)
 
 
 
