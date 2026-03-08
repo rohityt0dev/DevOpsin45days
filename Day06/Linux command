@@ -22,3 +22,4 @@ These are basic Linux commands that every DevOps / Cloud engineer use :
 20 . history : list of commands you previously executed in the terminal.
 21 . ps or ps -ef : view running processes.
 22 . ps -ef | grep "process_name" : search for a specific process
+23 . awk '{print $column_number}' file_name : extracting columns from files or command output.
