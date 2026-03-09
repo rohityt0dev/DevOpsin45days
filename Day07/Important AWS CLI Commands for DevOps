@@ -1,0 +1,16 @@
+1. Check AWS CLI configuration : aws configure
+2. Check configured identity : aws sts get-caller-identity
+3. List S3 buckets : aws s3 ls 
+4. Create S3 bucket : aws s3 mb s3://my-devops-bucket
+5. Upload file to S3 : aws s3 cp file.txt s3://my-devops-bucket/
+6. Download file from S3 : aws s3 cp s3://my-devops-bucket/file.txt .
+7. Delete file from S3 : aws s3 rm s3://my-devops-bucket/file.txt
+8. List EC2 instances : aws ec2 describe-instances
+9. Start EC2 instance : aws ec2 start-instances --instance-ids i-1234567890
+10. Stop EC2 instance : aws ec2 stop-instances --instance-ids i-1234567890
+11. Create key pair : aws ec2 create-key-pair --key-name mykey
+12. List IAM users : aws iam list-users
+1️3. Create IAM user : aws iam create-user --user-name devops-user
+14. List Lambda functions : aws lambda list-functions
+15. List CloudWatch alarms : aws cloudwatch describe-alarms
+16. List VPCs : aws ec2 describe-vpcs
