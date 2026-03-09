@@ -16,3 +16,10 @@ A version control system (Vcs) is the software that track changes made in source
 | Storage Efficiency  | Uses local machine storage (no savings mentioned).                              | Saves storage on individual machines.                                       |
 | Risks               | High risk of data loss if computer fails; difficult for large/complex projects. | Data loss if central repository crashes.                   
 
+##### Fork vs. Clone 
+| Aspect       | Fork                                               | Clone                                                  |
+| ------------ | -------------------------------------------------- | ------------------------------------------------------ |
+| Location     | Server-side copy (e.g., your GitHub)               | Local machine copy                                     |
+| Independence | Fully separate repo; changes don't affect original | Linked to source; direct pushes possible if authorized |
+| Use Case     | Contributions, divergence                          | Local development, testing                             |
+
