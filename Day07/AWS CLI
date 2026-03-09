@@ -1,0 +1,17 @@
+Installing or updating to the latest version of the AWS CLI on ubuntu machine .
+
+1 . Update the Package List.
+     apt update 
+2 . Installed (Best Method – Official AWS CLI v2)
+     curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+     unzip awscliv2.zip
+     ./aws/install
+3 . Verify Installation 
+      aws --version 
+    Example output : aws-cli/2.34.4 Python/3.13.11 Linux/6.6.87.2-microsoft-standard-WSL2 exe/x86_64.ubuntu.24
+4 . Configure AWS
+      aws configure 
+                  AWS Access Key ID
+                  AWS Secret Access Key
+                  Default region name
+                  Default output format
