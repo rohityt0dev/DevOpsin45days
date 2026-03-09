@@ -23,3 +23,5 @@ These are basic Linux commands that every DevOps / Cloud engineer use :
 21 . ps or ps -ef : view running processes.
 22 . ps -ef | grep "process_name" : search for a specific process
 23 . awk '{print $column_number}' file_name : extracting columns from files or command output.
+24 . wget : Download files from a URL.
+25 . curl : transfer data from servers.
