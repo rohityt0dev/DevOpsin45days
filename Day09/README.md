@@ -72,6 +72,29 @@ Tagging is like bookmarking a specific commit.
 ##### git stash apply (stash id)
 25 . To clear the Stash : 
 ##### git stash clear
+26 . To reset staging area (Soft reset) :
+##### git reset .  or 
+##### git reset (file name)
+27 . To reset staging area (Hard reset) :
+##### git reset --hard
+28 . To revert file :
+##### git revert ( revert commit id)
+##### git reset --hard (commit id)
+29 . How to remove Untrack file :
+##### git clean -m
+##### git clean -f
+30 . Tagging is like bookmarking a specific commit :
+##### git tag -a (name) -m  ("massage") (commit id)
+31 . List all tags :
+##### git tag
+32 . Show detailed info about a tag :
+##### git show (tag name)
+33 . Delete a local tag :
+##### git tag -d (tag name)
+34 .Delete a remote tag :
+##### git push origin --delete tag (tag name)
+35 . Clone : Cloning a repository on our local machine.
+##### git clone (repository link)
 
 
 
