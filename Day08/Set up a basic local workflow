@@ -1,0 +1,19 @@
+# After Git installation and configuration on your Linux machine, set up a basic local workflow by initializing or cloning a repository, making changes, and committing them. This establishes version control for your projects before involving remotes like GitHub.
+# Create a Folder
+mkdir my-git-project
+cd my-git-project
+# Initialize Git Repository
+git init                            # This creates a local .git folder to track changes.
+# Check Git Status :
+git status
+
+
+# Basic Workflow Cycle
+# Check status : 
+git status
+# Stage changes : 
+git add <file> or git add . for all
+# Commit : 
+git commit -m "Descriptive message"
+# View history : 
+git log --oneline
