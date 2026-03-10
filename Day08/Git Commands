@@ -19,4 +19,5 @@
                                                   git log --oneline
 17 . Shows detailed information about a specific commit : git show (commit-id)
 18 . shows the difference between changes in files : git diff 
-19 .
+19 . To delete branch : git branch -d (branch name)
+20 . 
