@@ -1,0 +1,11 @@
+# Ubuntu
+# Update the package list first, then install :
+sudo apt update
+sudo apt install git -y 
+# Check Git Version :
+git --version
+# Configure your username and email :
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+# shows all Git configuration settings :
+git config --list
