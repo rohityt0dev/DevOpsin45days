@@ -20,4 +20,9 @@
 17 . Shows detailed information about a specific commit : git show (commit-id)
 18 . shows the difference between changes in files : git diff 
 19 . To delete branch : git branch -d (branch name)
-20 . 
+20 . To Stash Your Changes : git stash
+21 . To Stash Your Changes (untracked files) : git stash -u
+22 . To see List Your Stashes : git stash list
+23 . Apply the Last Stash : git stash apply
+24 . Apply a Specific Stash : git stash apply (stash id)
+25 .To clear the Stash : git stash clear
