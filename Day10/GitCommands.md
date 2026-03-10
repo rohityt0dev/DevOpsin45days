@@ -13,6 +13,7 @@
 6 . Commit the Code :
 ##### git commit -m "first commit" 
 7 . Connect Local Repo to GitHub : 
+##### git remote add <name> <repository-URL>
 ##### git remote add origin https://github.com/username/devops-project.git
 8 . Check connection : 
 ##### git remote -v 
