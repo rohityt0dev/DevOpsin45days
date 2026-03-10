@@ -1,0 +1,16 @@
+# Add Remote Repository
+
+# Create a Repository on GitHub.
+# login to Github account on browser.
+# Click new repository.
+# Repository name. Give name for Repository. (example: devops-project)
+# Description (Optional)
+# Selete your repository is pubilc or private.
+# Click Create Repository.
+
+# Go to Your Local Project Folder.
+
+# Connect Local Repo to GitHub.
+git remote add origin gitrepourl
+# Check connection :
+git remote -v
