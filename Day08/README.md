@@ -3,6 +3,9 @@
 ##### Introduction of Git :
 Git is a distributed version control system that changes in files, allowing Developers to collaborate efficiently and maintain a history of their project evolution.
 
+##### Introduction of Git Hub :
+GitHub is a leading web-based platform for version control and collaborative software development. It enables developers to store code in repositories, track changes using Git, and work together on projects.
+
 ### Version Control :
 A version control system (Vcs) is the software that track changes made in source code,keep a history of all changes. This way, Developers can track all chnages inside the project and revert specific version file whenever need. 
 
@@ -22,4 +25,5 @@ A version control system (Vcs) is the software that track changes made in source
 | Location     | Server-side copy (e.g., your GitHub)               | Local machine copy                                     |
 | Independence | Fully separate repo; changes don't affect original | Linked to source; direct pushes possible if authorized |
 | Use Case     | Contributions, divergence                          | Local development, testing                             |
+
 
