@@ -1,0 +1,20 @@
+# GitHub Authentication with Personal Access Token (PAT)
+When you push code from Git to GitHub, you can no longer use your GitHub password. Instead, you must use a Personal Access Token (PAT) as the password. This is more secure and required by GitHub.
+
+Create a Personal Access Token (PAT)
+1 . Go to GitHub
+2 . Click your profile picture → Settings
+3 . Open Developer settings
+4 . Click Personal access tokens
+5 . Select Tokens (classic) → Generate new token
+6 . Give a name like git-access
+7 . Set expiration 
+8 . Select permissions:
+9 . Click Generate token
+10 . Copy the token immediately (you cannot see it again)
+
+# Use PAT When Pushing Code
+git push origin main
+Username: your-github-username
+Password: <paste your PAT here>
+👉 Paste the token instead of your GitHub password
