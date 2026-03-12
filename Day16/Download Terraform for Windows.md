@@ -1,18 +1,18 @@
-ON Web Browser https://developer.hashicorp.com/terraform/install
+### Download Terraform for Windows
 
-Under Windows, select :
+ON Web Browser **https://developer.hashicorp.com/terraform/install**
 
-Architecture: 64-bit
+Under Windows, select : **Architecture: 64-bit*
 
 It will download a .zip file (example: terraform_1.9.8_windows_amd64.zip).
 
-Extract the ZIP File
+Extract the ZIP File.
 
-Right-click on the downloaded ZIP → Extract All
+Right-click on the downloaded ZIP → **Extract All*
 
 Move this terraform.exe to a permanent location
+for example : **C:\Terraform**
 
-for example : C:\Terraform
 Add Terraform to System PATH
 
 Press Windows + R, type sysdm.cpl → press Enter
@@ -27,9 +27,9 @@ Click OK
 
 Verify Installation
 
-Open Command Prompt
-terraform -version
+##### Open Command Prompt
+**terraform -version**
 
-# You see
+ **You see**
 Terraform v1.13.4
 on windows_386
