@@ -23,7 +23,9 @@ Dependency information
 ### Terraform state file  
 Terraform state file stores the mapping between Terraform configuration and real infrastructure resources. It allows Terraform to track infrastructure, detect changes, and update only the required resources.
 
+
 > **You should store your state file remotely, not on your local machine . It is not good idea to store the state file in source control .**
 
 > Isolate and organize the state files to reduce the blast radius. Do not manipulate the state file. 
 
+![alt](https://media.licdn.com/dms/image/v2/D5622AQFdVjFPyUzaHA/feedshare-shrink_800/feedshare-shrink_800/0/1714919763117?e=1775088000&v=beta&t=MH_qAYyIb-ujMqJnOQF1x-zP8_Y44D9C3tGKFzrrQws)
