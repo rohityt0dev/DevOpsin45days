@@ -7,3 +7,14 @@ This reduces errors, speeds up CI/CD pipelines, and ensures consistency across e
 
 # Terraform
 Terraform is an infrastructure as code tool that lets you build, change, and version cloud and on-prem resources safely and efficiently.
+
+**Manage any Infrastructure**
+
+**Track your Infrastructure**
+
+**Automate changes**
+
+**Standardize configuration**
+
+**Collaborate**
+
