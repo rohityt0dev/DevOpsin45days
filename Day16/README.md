@@ -1,12 +1,12 @@
 ![alt](https://cdn.hashnode.com/res/hashnode/image/upload/v1761381451415/30f72645-a015-4a61-be74-77a9496cd619.png)
 
-Download Terraform for Windows
++ Download Terraform for Windows
 
-Install AWS CLI
+* Install AWS CLI
 
-Configure AWS 
++ Configure AWS 
 
-Write Terraform Configuration File.
+* Write Terraform Configuration File.
 
 ### The Terraform state file (terraform.tfstate) is a file that stores the current state of your infrastructure.
 
@@ -26,3 +26,4 @@ Terraform state file stores the mapping between Terraform configuration and real
 > **You should store your state file remotely, not on your local machine . It is not good idea to store the state file in source control .**
 
 > Isolate and organize the state files to reduce the blast radius. Do not manipulate the state file. 
+
