@@ -7,3 +7,94 @@
 Java 21 or later: see the Java Requirements page
 Web browser: see the Web Browser Compatibility page
 
+Setting Up Java, Git, Maven on Windows for Jenkins
+
+install and configure Java (JDK), Git, Maven, and Jenkins on a Windows machine.
+
+Install & Configure Git
+
+Git is a version control tool and is widely used with Jenkins.
+
+Download Git for Windows from https://git-scm.com/downloads/win.
+
+For windows Git for Windows/x64 Portable. (as per your windows machine).
+
+Install it.
+
+after installation - Git Bash
+
+Configure your details :
+
+git config --global user.name "your_name"
+git config --global user.email "your_email"
+git config --global --list
+git --version
+
+Install & Configure Java (JDK)
+
+Jenkins and Maven require Java to run, so let’s begin here.
+
+Download JDK (Windows .exe installer).
+
+https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe.
+
+Install it (default path: C:\Program Files\Java\jdk-XX).
+
+Configure environment variables :
+Add JAVA_HOME → C:\Program Files\Java\jdk-XX
+Add bin path to PATH.
+
+Configure your details :
+
+echo %JAVA_HOME%
+java --version
+
+Note: Jenkins currently supports JDK 17 and 21. Avoid using JDK 24.
+
+Install & Configure Maven
+
+Maven is a build automation tool often integrated with Jenkins.
+
+Download Maven from apache.org.
+
+https://dlcdn.apache.org/maven/mvnd/1.0.2/maven-mvnd-1.0.2-windows-amd64.zip
+
+Extract it to a directory.
+
+Set environment variables :
+MAVEN_HOME = C:\apache-maven
+Add %MAVEN_HOME%\bin to PATH.
+
+Configure your details :
+
+mvn -version
+
+Reboot system
+
+Install & Configure Jenkins
+
+Jenkins is the backbone of DevOps automation.
+
+Download Jenkins Windows installer (.msi) from jenkins.io.
+
+https://2.mirrors.in.sahilister.net/jenkins/windows-stable/2.516.2/jenkins.msi
+
+Install → it auto-detects Java.
+
+Open Jenkins in your browser :
+
+http://localhost:8080
+
+Create an admin user → install suggested plugins → dashboard will appear.
+
+To avoid issues, follow this installation sequence :
+
+Git
+
+Java (JDK 17)
+
+Maven
+
+Reboot System
+
+Jenkins
