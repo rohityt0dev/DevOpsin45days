@@ -19,3 +19,24 @@ Typical CI/CD Stages
 + Deploy: Push artifacts to environments—staging for CD, production for full deployment with approvals .
 
 * Monitor: Track performance post-deployment (e.g., via Prometheus or Datadog) .
+
+## Core Concepts :
+### 1 . Continuous Integration (CI)
+
+* Continuous Integration is the practice where developers frequently merge their code changes into a shared repository (e.g., GitHub, GitLab, ). Code is automatically built and tested every time and issues are detected early.
+* Key benefits of of CI are reduces integration conflicts, improves code quality, speed up development, improves collaboration between developers.
+
+### 2 . Continuous Delivery (CD)  
+
+* Continuous Delivery ensure that the application  is always in a deployable state.
+* After CI successfully validates code, the application is automatically prepared for release into staging or pre-production environments.
+* Key benefits are frequent and reliable releases, reduced risks though smaller ad increment updates.
+
+### 3 . Continuous Deployment (CD)
+
+* Continuous Deployment is the next step after Continuous Delivery.
+* Here, every change that passes automated tests is automatically deployed into production without manual intervention.
+* Key benefits are fully automated release process, faster innovation and feature delivery, immediate customer feedback.
+
+### CI/CD Platforms 
+###### Jenkins, GitHub Actions, Azure DevOps Pipelines, Bitbucket Pipelines
