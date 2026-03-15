@@ -8,7 +8,7 @@ sudo apt update -y
 
 # Install Java 
 Sudo apt update 
-Sudo apt install openjdk-11-jre
+sudo apt install openjdk-17-jdk -y
 
 # verify java is installed 
 java -version
@@ -21,6 +21,10 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt update
 sudo apt install jenkins
+
+# Check Jenkins is running or not 
+sudo systemctl restart jenkins
+sudo systemctl status jenkins
 
 # **NOTE:** If Jenkins is installed on EC2 but not opening in browser.
 Jenkins Port (8080) Not Open in Security Group.
