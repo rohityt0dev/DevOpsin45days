@@ -1,1 +1,37 @@
+# Terraform for Ubuntu
+sudo apt update -y
+
+# Pre-Requisites 
+# java (JDK)
+
+# Run the below commands to install java and jenkines.
+
+# Install Java 
+Sudo apt update 
+Sudo apt install openjdk-11-jre
+
+# verify java is installed 
+java -version
+
+# Installing Jenkines 
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install terraform
+
+# **NOTE:** If Jenkins is installed on EC2 but not opening in browser.
+Jenkins Port (8080) Not Open in Security Group.
+AWS blocks traffic by default.
+
+You must open Inbound Rule.
+AWS Console → EC2 → Instance → Security → Security Group → Edit Inbound
+
+Add:
+Type → Custom TCP
+Port → 8080
+Source → 0.0.0.0/0
+Save.
+
+Using  URL in Browser
+Correct format : 
+http://<EC2-PUBLIC-IP>:8080
 
