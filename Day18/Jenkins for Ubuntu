@@ -1,4 +1,4 @@
-# Terraform for Ubuntu
+# Jenkins for Ubuntu
 sudo apt update -y
 
 # Pre-Requisites 
