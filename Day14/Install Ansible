@@ -7,3 +7,7 @@ sudo apt install ansible
 # Basic Configuration
 # Create Inventory File
 vi inventory  
+
+
+# Inventory and ansible.cgf file loacation :
+/etc/ansible
