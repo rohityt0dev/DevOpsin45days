@@ -9,4 +9,14 @@ Install Plugins
 
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/962ff6285cff4883f68c67f71ff7d1079bcf236c/Day18/Screenshot%202026-03-15%20133714.png)
 
+##### Create user :
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/051ca4227b3d982a0cff49f5e7e67705e97670a6/Day18/Screenshot%202026-03-15%20133804.png)
+Fill the Information
 
+Setup is finish 
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/051ca4227b3d982a0cff49f5e7e67705e97670a6/Day18/Screenshot%202026-03-15%20134234.png)
+
+##### Jenkins Dashbord :
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/051ca4227b3d982a0cff49f5e7e67705e97670a6/Day18/Screenshot%202026-03-15%20134249.png)
+
+### Start using Jenkins
