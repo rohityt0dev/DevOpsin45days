@@ -1,1 +1,14 @@
+1 . Git not installed
+   So you must:
 
+✅ install git
+✅ checkout code
+✅ then run script
+
+2 . Branch
+
+Is the branch name : main OR master
+OR something elss ?
+GitHub now uses main as default branch, not master.
+But in log Jenkins is trying : origin/master
+So Specify the branch in your pipeline OR SCM configuration. 
