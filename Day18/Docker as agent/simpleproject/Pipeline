@@ -15,9 +15,10 @@ pipeline {
             }
         }
 
-        stage('Clone Code') {
+        stage('Checkout Code') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/docker-agent-demo.git'
+                git branch: 'main',
+                url: 'https://github.com/rohityt0dev/docker-as-agent.git'
             }
         }
 
