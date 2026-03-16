@@ -24,22 +24,4 @@ Now paste this very simple Pipeline
 Run Build ✅
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/1a11012d766d364810b12891e29fc06818f3f3fe/Day18/Docker%20as%20agent/simpleproject/Screenshot%202026-03-16%20130946.png)
 
-Git not installed
-So you must:
 
-✅ install git
-✅ checkout code
-✅ then run script
-
-
-Is the branch name:
-
-main
-
-OR master
-
-OR something else?
-GitHub now uses main as default branch, not master.
-But in log Jenkins is trying:
-
-origin/master
