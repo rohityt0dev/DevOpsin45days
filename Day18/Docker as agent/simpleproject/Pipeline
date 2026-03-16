@@ -1,0 +1,32 @@
+pipeline {
+    agent {
+        docker {
+            image 'ubuntu:22.04'
+            args '-u root'
+        }
+    }
+
+    stages {
+
+        stage('Install Tools') {
+            steps {
+                sh 'apt update'
+                sh 'apt install git -y'
+            }
+        }
+
+        stage('Clone Code') {
+            steps {
+                git 'https://github.com/YOUR-USERNAME/docker-agent-demo.git'
+            }
+        }
+
+        stage('Run Build') {
+            steps {
+                sh 'chmod +x app.sh'
+                sh './app.sh'
+            }
+        }
+
+    }
+}
