@@ -38,6 +38,7 @@ CD (Continuous Delivery / Continuous Deployment) is the process of automatically
 CI ensures code quality through automated testing, while CD ensures fast and reliable deployment.
 
  5 . What is a Pipeline in CI/CD ?
+ 
 CI/CD pipeline automates build, test and deployment process.
 
 6 . What are the different ways to trigger jenkines pipelines ?
@@ -47,7 +48,14 @@ It can also start automatically when code is pushed to Git.
 We can also schedule pipeline using cron.
  
 7 . How to backup jenkines ? 
+
 Jenkins backup means backup of Jenkins home folder.
 It stores jobs, plugins and configuration.
 We can take backup manually or schedule automatic backup.
+
+8 . What is difference between Jenkins and GitHub Actions ?
+
+Jenkins needs separate server setup.
+GitHub Actions works directly inside GitHub.
+Both are used to automate build and deployment.
 
