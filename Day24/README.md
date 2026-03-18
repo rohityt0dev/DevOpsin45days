@@ -21,4 +21,8 @@ Docker is a containerization platform that provides easy way to containerize you
 
 In simple words, you can understand as containerization is a concept or technology and Docker Implements Containerization.
 
+Docker Architecture ? 
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/65acd409956b8b60803f0845ed08182247c2f5f2/Day24/1_GoZ56yZNpG_VnGGvqhYlCQ.png)
+
+Docker Daemon is heart of docker ?
 
