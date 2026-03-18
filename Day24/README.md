@@ -1,5 +1,6 @@
 # Docker 
 Why Containers are Lightweight ?
+
 Containers are lightweight because they share the host OS kernel and include only the application and dependencies, unlike virtual machines which require a full guest operating system.
 
 Container Lifecycle :
@@ -15,6 +16,7 @@ Why Base Image is Important in Containers ?
 Base image security is important because vulnerabilities in the base layer can expose the entire containerized application to attacks. Using minimal, trusted, and regularly updated base images reduces the attack surface and improves overall security.
 
 What is Docker ?
+
 Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker you can build container images, run the images to create containers and also push these containers to container regestries such as DockerHub, Quay.io and so on.
 
 In simple words, you can understand as containerization is a concept or technology and Docker Implements Containerization.
