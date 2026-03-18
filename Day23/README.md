@@ -4,3 +4,16 @@ Containers are a way to package an application with all its dependencies (code, 
 What is a Virtual Server ?
 
 A virtual server is a software-based server that runs inside a physical machine using virtualization technology.
+
+| Feature        | Container            | Virtual Machine               |
+| -------------- | -------------------- | ----------------------------- |
+| Size           | MBs                  | GBs                           |
+| Boot Time      | Seconds              | Minutes                       |
+| OS             | Shares Host OS       | Full Guest OS                 |
+| Performance    | Very Fast            | Slower                        |
+| Isolation      | Process-level        | Full Hardware-level           |
+| Resource Usage | Low                  | High                          |
+| Portability    | Very High            | Medium                        |
+| Use Case       | Microservices, CI/CD | Legacy Apps, Strong Isolation |
+
+
