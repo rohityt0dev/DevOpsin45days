@@ -4,3 +4,4 @@ Containers are lightweight because they share the host OS kernel and include onl
 
 Container Lifecycle :
 Container lifecycle includes stages like image pull/build, create, run, pause, stop, restart, and remove. These stages help manage container execution and resources efficiently.
+![alt()]
