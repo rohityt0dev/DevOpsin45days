@@ -16,4 +16,5 @@ A virtual server is a software-based server that runs inside a physical machine 
 | Portability    | Very High            | Medium                        |
 | Use Case       | Microservices, CI/CD | Legacy Apps, Strong Isolation |
 
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/24d57192ea02821205d969c1311a1193050306ab/Day23/Containers-share-a-common-kernel.webp.png)
 
