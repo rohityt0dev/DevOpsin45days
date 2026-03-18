@@ -24,5 +24,45 @@ In simple words, you can understand as containerization is a concept or technolo
 Docker Architecture ? 
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/65acd409956b8b60803f0845ed08182247c2f5f2/Day24/1_GoZ56yZNpG_VnGGvqhYlCQ.png)
 
-Docker Daemon is heart of docker ?
+Docker Daemon is heart of docker.
+
+
+What is Docker File ? 
+
+Docker file is basically a text file it contains set of instruction used to build a Docker image automatically.
+
+> **Docker Components :**
+
+> #### FROM
+> *For base image this command must be on top of the Dockerfile.*
+
+> #### RUN
+> *To execute command it will create a layer image*
+
+> #### MAINTAINER
+> *Author/owner/description*
+
+> #### COPY
+> *Copy file from local machine (Docker vm) we need to provide source, destination.*
+
+> #### ADD
+> *Similar to copy but it provides a feature to download file from internet, also we extract file at docker image side.*
+
+> #### EXPOSE
+> *To expose port such as port 8080 for tomcat port 80 for nginx*
+
+> #### WORKDIR
+> *To set working directory for container*
+
+> #### CMD
+> *Execute the commands but during conatiner creation.*
+
+> #### ENTRYPOINT
+> *Similar to CMD but has higher priority over CMD*
+
+> #### ENV
+> *Environment Variables
+
+> #### VOIUME
+> *Used to display information about volumes on a disk or modify volume.*
 
