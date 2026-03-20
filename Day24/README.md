@@ -2,6 +2,7 @@
 Why Containers are Lightweight ?
 
 Containers are lightweight because they share the host OS kernel and include only the application and dependencies, unlike virtual machines which require a full guest operating system.
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/5efa35f00307f67fedf567253fdf1cfc01bfd407/Day24/nginx%20image.png)
 
 Container Lifecycle :
 Container lifecycle includes stages like image pull/build, create, run, pause, stop, restart, and remove. These stages help manage container execution and resources efficiently.
