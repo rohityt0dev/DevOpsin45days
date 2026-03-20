@@ -49,3 +49,7 @@ Open browser :
 > http://localhost:8081
 
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/7999f161d41c0c101b716ce1182bd881a2af9c52/Day24/Docker-mini-project/output.png)
+
+**What You Learned**
+
+I created a Dockerfile to deploy a static website using Nginx. I built the Docker image and ran container with port mapping to access application from browser.
