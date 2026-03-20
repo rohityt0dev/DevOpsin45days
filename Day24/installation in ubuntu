@@ -1,0 +1,21 @@
+# Update System
+sudo apt update
+
+# Download Docker
+sudo apt  install docker.io -y 
+
+# Start and Enable Docker
+sudo systemctl start docker
+sudo systemctl enable docker
+
+# Verify Docker Installation
+docker --version
+
+# Grant Access to your user to run docker commands
+sudo usermod -aG docker $USER
+
+# Test Docker
+sudo docker run hello-world
+
+# If Docker deamon is not running. Restart the docker service. 
+
