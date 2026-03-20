@@ -59,6 +59,7 @@ Clone this repository and move to example folder
 
 
 > docker build -t rohityt0dev/my-first-docker-image:latest .
+
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/ce1303b5cb4c00cc9a026499f4197b1aad4ec0aa/Day24/docker%20build.png)
 
 *Change username  accordingly to your docker account.*
