@@ -60,6 +60,7 @@ Clone this repository and move to example folder
 
 > docker build -t rohityt0dev/my-first-docker-image:latest .
 
+
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/ce1303b5cb4c00cc9a026499f4197b1aad4ec0aa/Day24/docker%20build.png)
 
 *Change username  accordingly to your docker account.*
@@ -77,6 +78,8 @@ Clone this repository and move to example folder
 **Push the Image to DockerHub and share it with the world**
  
 > docker push rohityt0dev5/my-first-docker-image
+
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/ce1303b5cb4c00cc9a026499f4197b1aad4ec0aa/Day24/docker%20push.png)
 
+**On Docker Hub**
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/8215c6d34cad54bff1558340e56d7c717f23887b/Day24/repo.png)
