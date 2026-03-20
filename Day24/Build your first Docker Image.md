@@ -83,3 +83,23 @@ Clone this repository and move to example folder
 
 **On Docker Hub**
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/8215c6d34cad54bff1558340e56d7c717f23887b/Day24/repo.png)
+
+**Getting Error**
+
+When  ran :
+
+> sudo docker run hello-world
+
+Permission Denied (Docker Socket)
+
+Reason :
+
+*Your user (ec2-user) does not have permission to access Docker daemon.*
+
+To fix this run :
+
+> sudo usermod -aG docker ec2-user
+
+Then run:  exit
+
+*Login again to EC2 (very important).*
