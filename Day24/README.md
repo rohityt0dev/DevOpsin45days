@@ -65,19 +65,20 @@ Docker file is basically a text file it contains set of instruction used to buil
 > *Environment Variables
 
 > #### VOIUME
-> *Used to display information about volumes on a disk or modify volume* :
+> *Used to display information about volumes on a disk or modify volume* 
 
-Docker daemon : Docker daemon (dockerd) is the core background service responsible for handling Docker API requests and managing the lifecycle of Docker containers and images.
+#### Docker basic components
+Docker daemon : **Docker daemon (dockerd) is the core background service responsible for handling Docker API requests and managing the lifecycle of Docker containers and images.**
 
-Docker Client : Docker client is the primary interface through which users interact with Docker. It sends commands to the Docker daemon using Docker API to manage containers, images, networks, and volumes.
+Docker Client : **Docker client is the primary interface through which users interact with Docker. It sends commands to the Docker daemon using Docker API to manage containers, images, networks, and volumes.**
 
-Docker Desktop : Docker Desktop is a developer tool that packages Docker Engine, CLI, and a graphical dashboard to simplify container development and management on local machines.
+Docker Desktop : **Docker Desktop is a developer tool that packages Docker Engine, CLI, and a graphical dashboard to simplify container development and management on local machines.**
 
-Docker registries : Docker registry is a centralized location used to store, manage, and distribute Docker images so that containers can be created from them.
+Docker registries : **Docker registry is a centralized location used to store, manage, and distribute Docker images so that containers can be created from them.**
 
-Dockerfile : Dockerfile is an instruction script used to automate the creation of Docker images by defining the application environment, dependencies, and startup commands.
+Dockerfile : **Dockerfile is an instruction script used to automate the creation of Docker images by defining the application environment, dependencies, and startup commands.**
 
-Images : Docker image is a lightweight, executable, and read-only package that includes everything required to run an application and is used to create containers.
+Images : **Docker image is a lightweight, executable, and read-only package that includes everything required to run an application and is used to create containers.**
 
 
 
