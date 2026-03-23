@@ -14,3 +14,15 @@ Complete Hands-On Project Lab 🔥
 
 ##### Project Architecture 
 ![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/9a5584a63ca3c485caffbc4ed737cd768908b291/Day25/Docker%20Volume%20%2B%20Logs%20%2B%20Backup%20%2B%20Cron%20Container/Project%20Architecture%202.png)
+**Create Project Folder**
+
+> mkdir DockerProject
+
+> cd  DockerProject
+
+**Create Log Writer Script**
+
+> vi log.sh
+
+**Give permission :**
+> chomd +x log.sh
