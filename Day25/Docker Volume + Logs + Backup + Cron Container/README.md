@@ -33,3 +33,25 @@ Complete Hands-On Project Lab 🔥
 > docker volume ls
 
 **Run App Container**
+> docker run -d --name log-app -p 8083:80 -v my-logs:/var/log/app -v $(pwd)/log.sh:/log.sh ubuntu /bin/bash -c "apt update && apt install -y nginx && service nginx start && bash /log.sh"
+
+**Test Browser**
+> http://localhost:8083
+
+**Verify Logs**
+
+In container
+
+> docker exec -it log-app bash
+
+> cd /var/log/app
+
+> cat app.log
+
+##### Why do we need live logs updating in production ?
+Live logs are needed in production to detect problems immediately and fix them faster.
+They help engineers monitor application health, debug errors in real time, and validate deployments.
+Monitoring and security tools also rely on live logs to trigger alerts, scaling, or incident response quickly.
+
+**Create Backup Script**
+> vi backup.sh
