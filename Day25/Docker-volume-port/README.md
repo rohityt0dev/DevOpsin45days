@@ -12,12 +12,8 @@ Complete Hands-On Project Lab 🔥
 * Understand real production container behaviour
 
 
-**Project Architecture (Simple)**
-Browser → Host Port (8082) → Container Port (80)
-                          ↓
-                     Docker Volume
-                     (/usr/share/nginx/html)
-
+**Project Architecture**
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/cc1895186d51f970f0564cad131b352b3d0922da/Day25/Docker-volume-port/Project%20Architecture.png)
 **Create Project Folder**
 > mkdir docker-volume-port-project
 
