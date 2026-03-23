@@ -26,9 +26,6 @@ Complete Hands-On Project Lab 🔥
 
 > vi index.html
 
-**Give permission :**
-> chomd +x index.html
-
 **Run Container** 
 > docker run -d --name devops-nginx -p 8082:80 -v /mnt/c/Users/Rohit/docker-volume-port-project/webside:/usr/share/nginx/html nginx
 
