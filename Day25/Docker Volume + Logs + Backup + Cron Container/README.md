@@ -12,9 +12,5 @@ Complete Hands-On Project Lab 🔥
 * Port expose for testing
 * Use docker exec for debugging
 
-Architecture
-Browser → App Container (Port 8083)
-                    ↓
-                Docker Volume
-                    ↓
-             Backup Container (Cron)
+##### Project Architecture 
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/9a5584a63ca3c485caffbc4ed737cd768908b291/Day25/Docker%20Volume%20%2B%20Logs%20%2B%20Backup%20%2B%20Cron%20Container/Project%20Architecture%202.png)
