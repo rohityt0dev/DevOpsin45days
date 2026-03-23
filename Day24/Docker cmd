@@ -40,3 +40,32 @@ docker commit (conatiner name)  (image name for save)
 
 # To build a docker image from a docker Dockerfile
 docker build -t (image name) .
+
+# Create a volume 
+docker volume create
+
+# Display detailed information on one or more volumes
+docker volume inspect
+
+# List volumes
+docker volume ls
+
+# Remove unused local volumes
+docker volume prune
+
+# Remove one or more volumes
+docker volume rm
+
+# Update a volume
+docker volume update 
+
+# Container → Container Volume Sharing
+
+# Host → Container Volume
+
+# Docker attach
+docker attach (name or container_id)
+
+# Docker exec
+docker exec -it  (name or container_id) /bin/bash
+
