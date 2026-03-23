@@ -42,3 +42,9 @@ Browser → Host Port (8082) → Container Port (80)
 
 **Use docker exec**
 > docker exec -it devops-nginx bash
+
+**Precautions :** 
+
+Ensure that the index.html file path is correctly specified in the deployment command to avoid application errors.
+
+The default website (document root) path in Nginx is :  /usr/share/nginx/html 
