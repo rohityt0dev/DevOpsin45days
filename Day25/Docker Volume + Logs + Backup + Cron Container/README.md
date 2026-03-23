@@ -55,3 +55,12 @@ Monitoring and security tools also rely on live logs to trigger alerts, scaling,
 
 **Create Backup Script**
 > vi backup.sh
+
+**Give permission :**
+> chomd +x backup.sh
+
+**Run Backup Container**
+ > docker run -d --name backup-container -v my-logs:/logs -v $(pwd)/backup.sh:/backup.sh ubuntu /bin/bash -c "apt update && apt install -y cron tar && mkdir -p /backup && echo '*/1 * * * * root bash /backup.sh' > /etc/cron.d/backup && cron -f"
+
+**Verify Backup Files**
+> ls backup
