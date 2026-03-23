@@ -1,0 +1,42 @@
+# To see all images in your local machine 
+docker images 
+
+# To find images in docker hub 
+docker search (name)
+
+# To download inage from docker hub
+docker pull (image name)
+
+# Create New Docker Container (Interactive Mode)
+docker run -it --name (name) (image name) /bin/bash
+
+# To check docker Service 
+service docker status
+Systemctl status docker 
+
+# To start container 
+docker start (name or container_id)
+
+# To go inside container 
+docker attach (name or container_id)
+
+# To see all container 
+docker ps -a
+
+# To see only running container
+docker ps
+
+# To stop container 
+docker stop 
+
+# To delete conatiner
+docker rm (name or container_id)
+
+# To understand changes made in running docker container
+docker diff (name or container_id)
+
+# To create a new docker image from container 
+docker commit (conatiner name)  (image name for save)
+
+# To build a docker image from a docker Dockerfile
+docker build -t (image name) .
