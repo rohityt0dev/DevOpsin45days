@@ -26,3 +26,10 @@ Complete Hands-On Project Lab 🔥
 
 **Give permission :**
 > chomd +x log.sh
+
+**Create Docker Volume**
+> docker volume create my-logs
+
+> docker volume ls
+
+**Run App Container**
