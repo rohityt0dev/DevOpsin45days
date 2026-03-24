@@ -13,13 +13,20 @@ Docker volume are used for persistent storage, allowing data to be shared betwee
 * To avoid data loss when container is recreated
 * For backups and migrations
 
+> docker run -d --mount source=myvolume,target=/data nginx
+
+**Bind Mount**
+
+A Bind Mount connects a specific folder from your host machine to container.
+
+> docker run -d --mount type=bind,source=/home/rohit/app,target=/data nginx
+
 **Container to Container :** 
 
 If you want multiple containers to share data, you can use Docker volumes. when multiple containers mount the same volume, they can ready and write to the same data store.
 
-**Host to Container :** 
+> docker run -d --name c1 --mount source=sharedvol,target=/data nginx
 
-Docker volumes allow you to share data between your host machine and a conatiner, making it easy to persist and manage data outside the container.
 
 #### Docker port expose :
 
