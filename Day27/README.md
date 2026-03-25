@@ -29,20 +29,3 @@ A Bind Mount connects a specific folder from your host machine to container.
 
 > docker run -d --mount type=bind,source=/home/rohit/app,target=/data nginx
 
-
-
-
-#### Docker port expose :
-
-Connecting container port to host machine port so users can access application from browser or outside world.
-
-*Port 80 is the default HTTP port in contianer.*
-
-> docker run -d -p HOST_PORT:CONTAINER_PORT image
-
-> docker run -d -p 8080:80 nginx
-
--p : 
-
-The -p (or --publish) flag in docker is used to map a conatiner port to a port on the host machine. this allow external access to services running inside the container.
-
