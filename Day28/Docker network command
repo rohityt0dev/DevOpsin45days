@@ -1,0 +1,23 @@
+# List Docker Networks
+docker network ls
+
+# Create custom bridge network
+docker network create mynet
+
+# Inspect Network
+docker network inspect (NETWORK NAME)
+
+# Run Container in Specific Network
+docker run -d --name (containe name) --network (network name) (image name)
+
+# Connect Running Container to Network
+docker network connect (containe name) (containername)
+
+# Disconnect Container from Network
+docker network disconnect (containe name) (containername)
+
+# Remove Network
+docker network rm (containername)
+
+# Show Network of Container
+docker inspect (containername)
