@@ -19,3 +19,24 @@ COPY is used for simple file copying, while ADD provides additional features lik
 ##### What is the difference between CMD and ENTRYPOINT in docker ?
 CLI arguments using the Docker run command will override the arguments specified using the CMD instruction.
 Whereas ENTRYPOINT instruction in the shell form will override additional arguments provided using CLI parameters or even through the CMD commands.
+
+##### What are the networking types in Docker and what is the default ?
+The default networking in Docker is Bridge.
+
+However, you can change the default type and configure one of the 
+
+1 . Bridge
+
+2 . Overlay
+
+3 . Host 
+
+4 . Macvlan 
+
+##### What is a multi stage build in Docker ?
+Multi stage build allows you to build your docker container in multiple stages allowing you to copy artifacts from one stage to other. The major advantage of this is to build light weight conatiners.
+
+##### What are distro less images in Docker ?
+Distroless images contain only your application and its runtime dependencies with a very minimum operating system libraries. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution. They are very small and lightweight images.
+
+
