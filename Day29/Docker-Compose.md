@@ -12,3 +12,24 @@ Key Differences :
 | Networking | Manual | Automatic |
 | Scaling | Manual | Easy |
 | Dependency handling | No | Yes |
+
+Install Docker Compose Plugin
+
+First: Check Docker is installed
+
+```plaintext
+docker --version
+```
+
+If not installed, install Docker first
+
+Install Docker Compose Plugin
+
+```plaintext
+sudo apt update
+sudo apt install docker-compose-plugin -y
+```
+
+```plaintext
+docker compose version
+```
