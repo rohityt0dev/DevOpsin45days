@@ -23,17 +23,22 @@ Kubernetes is an open-source platform that helps you manage containerized applic
 * Enterprise-level support
 * Managing many containers automatically.
 
-  
+**Use kubernetes actually you need**
 
+* Microservices
+* Frequent relesases
+* High availability
+* Auto-scaling              
+* Resilience
 
+*"We used kubernetes because we needed resilience, rolling deployment, and auto-scaling"*
 
+**When is kubernetes overkill**
 
+* Early-stage products
+* Very small apps
+* Low traffic
+* team without platform maturity.
 
-
-
-
-
-
-
-
-8
+> We moved to kubernetes when the app grew into multiple services and required rolling deployments, self healing and auto-scaling.
+> Kubernetes let us manage many conatiners automatically something docker couldnot provide.
