@@ -46,3 +46,5 @@ Make the changes
 2 . Kube-proxy : Is basically responsible for networking. it’s provide its own unique IP address to nodes.
 
 3 . Container runtime : It is responsible for managing the execution and lifecycle of containers within the Kubernetes environment.
+
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/62d624d31dc542ba299a880b65a9b12c74d3cbc0/Day31/paint2.png)
