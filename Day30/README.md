@@ -13,3 +13,27 @@ Kubernetes is an open-source platform that helps you manage containerized applic
 * Health monitoring of containers.
 * Securing the interactions between containers.
 
+**The real problem Kubernetes solve**
+
+* Single host
+* Auto-scaling
+* Auto-healing
+* Rolling updates
+* Service discovery
+* Enterprise-level support
+* Managing many containers automatically.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+8
