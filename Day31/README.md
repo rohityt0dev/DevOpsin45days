@@ -37,6 +37,8 @@ Make the changes
 
 4 . API Server : It is basically that all the communications that will happen will happen via the API server
 
+![alt](https://github.com/rohityt0dev/DevOpsin45days/blob/5f96cb073019de556da5cea0153697eddc2894d5/Day31/paint1.jpg)
+
 **Worker Node components :**
 
 1 . Kubelet : It is basically listen to API server.
